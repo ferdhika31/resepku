@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/bffe86e4aa89f9ed6f18de92c33b806fb11c9242/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/classes_f7f5ba66d0efbcde3a4e3ef30905204a8718211b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/7a2ffc5103dd6fd09ca50b1989d2237214f2be80/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/classes_ed675d856b4d3645c55c93367f92d70cc45eb344.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/965ad02c6e60bcfd5a202474458d246eaa94d442/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/classes_5ac8bd460a21532175c6a1a88e2ccfdd248914f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/81f9518d54b4fcf9bc413fd519326afff45da50d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/classes_5247dfcdcba9e2d25b6f3ecb02b8f9e313687c0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/80c594f090e2bd2716047dd2aeb682be4f186cc5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/classes_41d0e4c472da002ed4f7a456bf79b103a536da7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/b57814644a59ec8e7dcda5b59d7f667e06253eb7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/classes_ffc230103bf8f64810524f3eea86844af21fe3ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/a5fa3c7437c828ede1260d769337321b17167ae3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/classes_9c72cea1817225d92549acd4456ba4bedd2769d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_e40c1e56fd1dec4a9360c508c7361186ee79f641.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ferdhika/.android/build-cache/965ad02c6e60bcfd5a202474458d246eaa94d442/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/ferdhika/AndroidStudioProjects/Resepku/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_676a8eb700279d7b272d0b36a7ff9e0918c541aa.jar" />
+    </item>
+
+</items>
