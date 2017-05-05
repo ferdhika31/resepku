@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="id.web.dika.resepku.FormResep">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:weightSum="1"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="60dp">
+
+            <TextView
+                android:text="RESEP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:id="@+id/headerText"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.63"
+                android:paddingBottom="30dp"/>
+
+            <TextView
+                android:text="Nama Resep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.63"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:id="@+id/inpNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Nama Resep" />
+
+            <TextView
+                android:text="Waktu Memasak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.63"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:id="@+id/inpWaktu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="1"
+                android:hint="Persiapan: x menit
+Memasak: x menit
+Total: x menit"/>
+
+            <TextView
+                android:text="Bahan-Bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.63"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:id="@+id/inpBahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="1"
+                android:hint="Bahan Utama Nasi Bukhari Daging Kambing
+- 750 gram daging kambing,lalu potong ukuran dadu
+- 2 liter air
+- 3 sdm ghee, atau diganti menggunakan minyak samin ataupun mentega tawar
+- 300 gram bawang bombay,lalu potong juring
+- 450 gram tomat merah, blender
+- 300 gram beras basmati,lalu cuci bersih"/>
+
+            <TextView
+                android:text="Cara Membuat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.63"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:id="@+id/inpCara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="1"
+                android:hint="1. Langkah pertama panaskan terlebih dahulu ghee ke dalam panci kemudian tumis bawang bombay hingga layu dan harum.
+2. Kemudian masukan daging kambing dan aduk hingga berubah warna
+3. Selanjutnya tambahkan air kemudian bumbu dan tomat hingga mendidih
+3. Tutup kembali panci sehingga daging empuk , kurang lebih selama 60 menit
+4. Setelah matang kemudian masukan beras kurang lebih 30 menit
+5. Tata kembali nasi diatas piring kemudian tambahkan bahan pelengkap
+"/>
+
+            <TextView
+                android:text="Keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="0.63"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"/>
+            <EditText
+                android:id="@+id/inpKeterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="1"
+                android:hint="Membuat nasi bukhari simpel dan mudah dapat anda praktekan di rumah sendiri. Nasi bukhari dengan daging kambing dapat menjadi salah satu alternatif untuk keluarga anda dalam menyantap hidangan khas arab di rumah."/>
+
+
+            <Button android:id="@+id/btnSimpan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="40dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
